@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5b55fd1b-078e-48b2-a068-c9c3644eba92" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cmd/Cat.java" afterPath="$PROJECT_DIR$/src/cmd/Cat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Shell.java" afterPath="$PROJECT_DIR$/src/Shell.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="intro.iws" />
@@ -29,21 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Shell.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Shell.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Shell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="1290">
-              <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.561674" vertical-offset="600" max-vertical-offset="1290">
+              <caret line="64" column="71" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -147,21 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SystemIdResolver.class" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/com/sun/xml/internal/fastinfoset/sax/SystemIdResolver.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="2040">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cmd/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3253012" vertical-offset="0" max-vertical-offset="415">
-              <caret line="9" column="90" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+              <caret line="13" column="62" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,65 +150,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Scanner.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Scanner.java">
+      <file leaf-file-name="File.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/File.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3819" max-vertical-offset="38085">
-              <caret line="303" column="19" selection-start-line="303" selection-start-column="19" selection-end-line="303" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#99893#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#13841#13842#0" expanded="false" />
-                <element signature="e#13890#13891#0" expanded="false" />
-                <element signature="e#13947#13948#0" expanded="false" />
-                <element signature="e#13999#14000#0" expanded="false" />
-                <element signature="e#21196#21197#0" expanded="false" />
-                <element signature="e#21278#21279#0" expanded="false" />
-                <element signature="e#21679#21680#0" expanded="false" />
-                <element signature="e#21750#21751#0" expanded="false" />
-                <element signature="e#26907#26908#0" expanded="false" />
-                <element signature="e#26973#26974#0" expanded="false" />
-                <element signature="e#28403#28404#0" expanded="false" />
-                <element signature="e#28450#28451#0" expanded="false" />
-                <element signature="e#40917#40918#0" expanded="false" />
-                <element signature="e#40953#40954#0" expanded="false" />
-                <element signature="e#41173#41174#0" expanded="false" />
-                <element signature="e#41208#41209#0" expanded="false" />
-                <element signature="e#42513#42514#0" expanded="false" />
-                <element signature="e#42547#42548#0" expanded="false" />
-                <element signature="e#44951#44952#0" expanded="false" />
-                <element signature="e#44991#44992#0" expanded="false" />
-                <element signature="e#50783#50784#0" expanded="false" />
-                <element signature="e#50840#50841#0" expanded="false" />
-                <element signature="e#51489#51490#0" expanded="false" />
-                <element signature="e#51550#51551#0" expanded="false" />
-                <element signature="e#52228#52229#0" expanded="false" />
-                <element signature="e#52286#52287#0" expanded="false" />
-                <element signature="e#57377#57378#0" expanded="false" />
-                <element signature="e#57441#57442#0" expanded="false" />
-                <element signature="e#64742#64743#0" expanded="false" />
-                <element signature="e#64800#64801#0" expanded="false" />
-                <element signature="e#65330#65331#0" expanded="false" />
-                <element signature="e#65375#65376#0" expanded="false" />
-                <element signature="e#68265#68266#0" expanded="false" />
-                <element signature="e#68311#68312#0" expanded="false" />
-                <element signature="e#70929#70930#0" expanded="false" />
-                <element signature="e#70978#70979#0" expanded="false" />
-                <element signature="e#72706#72707#0" expanded="false" />
-                <element signature="e#72752#72753#0" expanded="false" />
-                <element signature="e#75360#75361#0" expanded="false" />
-                <element signature="e#75407#75408#0" expanded="false" />
-                <element signature="e#78006#78007#0" expanded="false" />
-                <element signature="e#78050#78051#0" expanded="false" />
-                <element signature="e#80648#80649#0" expanded="false" />
-                <element signature="e#80696#80697#0" expanded="false" />
-                <element signature="e#82388#82389#0" expanded="false" />
-                <element signature="e#82433#82434#0" expanded="false" />
-                <element signature="e#92828#92829#0" expanded="false" />
-                <element signature="e#92882#92883#0" expanded="false" />
-                <element signature="e#94684#94685#0" expanded="false" />
-                <element signature="e#94735#94736#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="11838" max-vertical-offset="32850">
+              <caret line="840" column="19" selection-start-line="840" selection-start-column="19" selection-end-line="840" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Path.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/nio/file/Path.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="11715">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/FileInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="809" max-vertical-offset="5730">
+              <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -250,8 +198,8 @@
         <option value="$PROJECT_DIR$/src/Cli.java" />
         <option value="$PROJECT_DIR$/src/cmd/Cmd.java" />
         <option value="$PROJECT_DIR$/src/cmd/CmdFailed.java" />
-        <option value="$PROJECT_DIR$/src/Shell.java" />
         <option value="$PROJECT_DIR$/src/cmd/Wc.java" />
+        <option value="$PROJECT_DIR$/src/Shell.java" />
         <option value="$PROJECT_DIR$/src/cmd/Cat.java" />
       </list>
     </option>
@@ -372,6 +320,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunManager" selected="Application.Cli">
     <configuration default="false" name="Cli" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -519,7 +468,7 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -532,21 +481,21 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32791728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28951254" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33006042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44313148" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -565,7 +514,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="command io pipelining" />
-    <option name="LAST_COMMIT_MESSAGE" value="command io pipelining" />
+    <MESSAGE value="cat input can be piped" />
+    <option name="LAST_COMMIT_MESSAGE" value="cat input can be piped" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -578,39 +528,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cmd/Cmd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="225">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cli.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="315">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cmd/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="375">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3819" max-vertical-offset="38085">
@@ -1415,6 +1332,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cmd/Wc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="465">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cli.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
@@ -1426,31 +1353,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Shell.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="1290">
-          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="809" max-vertical-offset="5730">
+          <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cmd/Wc.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/nio/file/Path.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="465">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="11715">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11838" max-vertical-offset="32850">
+          <caret line="840" column="19" selection-start-line="840" selection-start-column="19" selection-end-line="840" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cmd/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3253012" vertical-offset="0" max-vertical-offset="415">
-          <caret line="9" column="90" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Shell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.561674" vertical-offset="600" max-vertical-offset="1290">
+          <caret line="64" column="71" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
