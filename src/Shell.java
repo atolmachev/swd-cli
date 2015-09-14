@@ -1,5 +1,6 @@
 import cmd.Cmd;
 
+import java.io.*;
 import java.util.*;
 
 import static cmd.Cmd.fail;
@@ -8,9 +9,9 @@ public class Shell {
     private Map<String, Cmd> commands = new HashMap<>();
 
     private Shell() {
-        commands.put("echo", (arg, options) -> System.out.println(arg));
-        commands.put("pwd", (arg, options) -> System.out.println(System.getProperty("user.dir")));
-        commands.put("exit", (arg, options) -> System.exit(0));
+        commands.put("echo", (arg, options, in, out) -> System.out.println(arg));
+        commands.put("pwd", (arg, options, in, out) -> System.out.println(System.getProperty("user.dir")));
+        commands.put("exit", (arg, options, in, out) -> System.exit(0));
     }
 
     public static Builder builder() {
@@ -20,17 +21,39 @@ public class Shell {
     public void start() {
         try (Scanner scanner = new Scanner(System.in)) {
             while (scanner.hasNextLine()) {
-                execute(scanner.nextLine());
+                executeLine(scanner.nextLine());
             }
         }
     }
 
-    public void execute(String line) {
+    public void executeLine(String line) {
+        String[] commands = line.split("\\|");
+        InputStream in = System.in;
+        PipedInputStream nextIn = null;
+        PrintStream out = null;
+        for (int i = 0; i < commands.length; i++) {
+            if (out != null) out.close();
+            if (i == commands.length - 1) {
+                out = System.out;
+            } else {
+                nextIn = new PipedInputStream();
+                try {
+                    out = new PrintStream(new PipedOutputStream(nextIn));
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+            executeCommand(commands[i].trim(), in, out);
+            in = nextIn;
+        }
+    }
+
+    public void executeCommand(String line, InputStream in, PrintStream out) {
         if (line == null) return;
         String[] split = line.split("\\s+");
-        Cmd cmd = commands.get(split[0]);
+            Cmd cmd = commands.get(split[0]);
         if (cmd == null) {
-            cmd = (arg, options) -> fail("command not found");
+            cmd = (arg, options, i, o) -> fail("command not found");
         }
         String arg = null;
         final Set<Character> options = new HashSet<>();
@@ -40,14 +63,14 @@ public class Shell {
                     options.add(c);
                 }
             } else if (arg != null) {
-                cmd = (arg1, options1) -> fail("multiple arguments are not supported");
+                cmd = (arg1, options1, inp, o) -> fail("multiple arguments are not supported");
             } else {
                 arg = split[i];
             }
         }
 
         try {
-            cmd.execute(arg, options);
+            cmd.execute(arg, options, in, out);
         } catch (Exception e) {
             System.err.println(String.format("%s: %s", split[0], e.getMessage()));
         }
@@ -63,5 +86,4 @@ public class Shell {
             return Shell.this;
         }
     }
-
 }
