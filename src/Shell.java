@@ -53,7 +53,7 @@ public class Shell {
         String[] split = line.split("\\s+");
             Cmd cmd = commands.get(split[0]);
         if (cmd == null) {
-            cmd = (arg, options, i, o) -> fail("command not found");
+            return;
         }
         String arg = null;
         final Set<Character> options = new HashSet<>();

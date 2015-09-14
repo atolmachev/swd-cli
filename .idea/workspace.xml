@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b55fd1b-078e-48b2-a068-c9c3644eba92" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cmd/Cat.java" afterPath="$PROJECT_DIR$/src/cmd/Cat.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Shell.java" afterPath="$PROJECT_DIR$/src/Shell.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -33,8 +32,8 @@
       <file leaf-file-name="Shell.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Shell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.561674" vertical-offset="600" max-vertical-offset="1290">
-              <caret line="64" column="71" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.2973568" vertical-offset="600" max-vertical-offset="1290">
+              <caret line="56" column="46" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -510,12 +509,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
     <MESSAGE value="command io pipelining" />
     <MESSAGE value="cat input can be piped" />
-    <option name="LAST_COMMIT_MESSAGE" value="cat input can be piped" />
+    <MESSAGE value="handle correctly directories" />
+    <option name="LAST_COMMIT_MESSAGE" value="handle correctly directories" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1389,8 +1390,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Shell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.561674" vertical-offset="600" max-vertical-offset="1290">
-          <caret line="64" column="71" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.2973568" vertical-offset="600" max-vertical-offset="1290">
+          <caret line="56" column="46" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
           <folding />
         </state>
       </provider>
