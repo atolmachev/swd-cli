@@ -62,3 +62,5 @@ Simple Shell
     > grep -A 1 "II" README.md
 
 Сделанное задание = реализации grep на Apache Cli + на JCommander + на библиотеке товарища + короткий ответ на вопрос "Что в API товарища вам понравилось, а что вы бы улучшили?"
+
+Have fun! :dancer: :dancer: :dancer:
